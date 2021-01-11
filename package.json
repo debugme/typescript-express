@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "watch": "tsc -w",
+    "start": "nodemon build/server.js",
+    "dep": "typac",
+    "dev": "typac --dev"
+  },
+  "dependencies": {
+    "cookie-session": "1.4.0",
+    "express": "4.17.1",
+    "node": "15.4.0"
+  },
+  "devDependencies": {
+    "@types/chalk": "2.2.0",
+    "@types/cookie-session": "2.0.42",
+    "@types/express": "4.17.9",
+    "@types/node": "14.14.20",
+    "@types/nodemon": "1.19.0",
+    "chalk": "4.1.0",
+    "nodemon": "2.0.7",
+    "prettier": "2.2.1",
+    "ts-node": "9.1.1",
+    "typac": "0.1.10",
+    "typescript": "4.1.3"
+  }
+}
